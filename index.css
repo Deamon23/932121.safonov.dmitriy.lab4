@@ -136,13 +136,18 @@ footer {
     aside{
         display: none;
     }
-
+    .sidebar{
+        width: 80%;
+        margin-left: 20%;
+    }
+    .sidebar li{
+        display: inline-block;
+    }
     .container{
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-around;
+        flex-direction: column;
     }
     main{
         margin: 20px;
+        width: 90%;
     }
 }
